@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Oswald, sans-serif;
+    src: url("Oswald-VariableFont_wght.ttf");
+  }
+.montage_headline h1 {
+    position: relative;
+    font-size: 7rem;
+    font-weight: lighter;
+    float: left;
+    padding: 8rem;
+    max-width: 45%;
+    
+}
+
+.montage_headline img {
+    position: relative;
+    font-weight: lighter;
+    float: right;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    margin: auto;
+    max-width: 45%;
+    min-width: 20rem;
+    }
+
+.mid_center_section {
+    text-align: left;
+    position: relative;
+    max-width: 60rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 40rem;
+    padding-bottom: 10rem;
+}
+
+.picture_grid_montage { 
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-width: 100rem;
+    grid-gap: 2rem;
+    justify-items: center;
+    margin: auto;
+}
+.picture_grid_montage > img{
+    width: 100%;
+    max-width: 20rem;
+    max-height: 100%;
+    padding-bottom: 5rem;
+}

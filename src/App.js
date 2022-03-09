@@ -1,6 +1,7 @@
 import './styles/App.css';
 import './styles/home.css';
 import './styles/production.css'
+import './styles/montage.css'
 
 import React from "react";
 import {
@@ -13,6 +14,7 @@ import Navbar_footer from './sites/navbar';
 import Home from './sites/Home';
 import Footer from './sites/Footer';
 import Produktion from './sites/Produktion';
+import Montage from './sites/Montage';
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
         <Route path="/Produktion" element={<Produktion/>} />
-        <Route path="/Montage" element={"nothing"} />
+        <Route path="/Montage" element={<Montage/>} />
         <Route path="/Projekter" element={"nothing"} />
         <Route path="/Kontakt" element={"nothing"} />
     </Routes>
