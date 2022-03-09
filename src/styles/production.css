@@ -43,10 +43,15 @@
     grid-gap: 2rem;
     justify-items: center;
     margin: auto;
+
 }
-.picture_grid_produktion > img{
+.picture_grid_produktion img{
     width: 100%;
     max-width: 20rem;
     max-height: 100%;
     padding-bottom: 5rem;
+    transition: transform .2s; /* Animation */
 }
+.picture_grid_produktion img:hover{
+        transform: scale(1.5);
+    }

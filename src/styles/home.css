@@ -26,15 +26,12 @@
     justify-items: center;
     margin: auto;
 }
-.picture_grid img{
+.picture_grid > img{
     object-fit: cover;
-    transition: transform .2s; /* Animation */
     width: 100%;
     max-height: 100%;
 }
-.picture_grid img:hover{
-    transform: scale(1.5);
-}
+
 
 @font-face {
     font-family: Oswald, sans-serif;
