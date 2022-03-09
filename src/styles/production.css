@@ -3,16 +3,50 @@
     src: url("Oswald-VariableFont_wght.ttf");
   }
 .poduction_headline h1 {
-    font-family:;
+    position: relative;
     font-size: 7rem;
     font-weight: lighter;
     float: left;
     padding: 8rem;
+    max-width: 45%;
+    
 }
 
 .poduction_headline img {
-   
+    position: relative;
     font-weight: lighter;
     float: right;
-    padding: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    margin: auto;
+    max-width: 45%;
+    min-width: 20rem;
     }
+
+.mid_center_section {
+    text-align: left;
+    position: relative;
+    max-width: 60rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 40rem;
+    padding-bottom: 10rem;
+}
+
+.picture_grid_produktion { 
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 100rem;
+    grid-gap: 2rem;
+    justify-items: center;
+    margin: auto;
+}
+.picture_grid_produktion > img{
+    width: 100%;
+    max-width: 20rem;
+    max-height: 100%;
+    padding-bottom: 5rem;
+}
