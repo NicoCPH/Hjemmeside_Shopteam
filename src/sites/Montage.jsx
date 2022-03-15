@@ -5,7 +5,7 @@ function Montage() {
                <h1>Montage</h1> 
                <img src={require("../images/img-montage.jpg")} alt="" />
                </div>
-            <section className="mid_center_section">
+            <section className="mid_center_section_montage">
                 <h2>Alt fra én hånd</h2>
                <div className="center_text">
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae officiis obcaecati veniam iste ea error repellat explicabo facilis ab? Deserunt ea repellendus ad vitae quo ullam at animi porro.

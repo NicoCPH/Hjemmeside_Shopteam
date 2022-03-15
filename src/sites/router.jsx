@@ -8,6 +8,7 @@ import {
 
 
 export default function Nav_router() {
+  
   return (
     <Router>
       <ul>
@@ -17,9 +18,6 @@ export default function Nav_router() {
             <li><Link to="/Projekter">Projekter</Link></li>
             <li><Link to="/Kontakt">Kontakt</Link></li>
           </ul> 
-
-    
-
     </Router>
   );
 }

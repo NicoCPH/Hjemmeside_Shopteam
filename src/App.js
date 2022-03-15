@@ -10,7 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Navbar_footer from './sites/navbar';
+import Navbar_Footer from './sites/navbar';
 import Home from './sites/Home';
 import Footer from './sites/Footer';
 import Produktion from './sites/Produktion';
@@ -19,7 +19,7 @@ import Projekter from './sites/Projekter';
 function App() {
   return (
     <div className="App">
-    <Navbar_footer/>
+    <Navbar_Footer/>
     <div className="content">
     <Routes>
       <Route path="/" element={<Home/>}/>

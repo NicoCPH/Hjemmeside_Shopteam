@@ -23,7 +23,7 @@
     min-width: 20rem;
     }
 
-.mid_center_section {
+.mid_center_section_montage {
     text-align: left;
     position: relative;
     max-width: 60rem;
@@ -49,4 +49,64 @@
     max-width: 20rem;
     max-height: 100%;
     padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1542px) {
+
+    .montage_headline h1 {
+        position: relative;
+        font-size: 4em;
+        font-weight: lighter;
+        padding-left: 2.5rem;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+        float: none;
+        padding: 0;
+        max-width: 100%;
+    }
+    
+    .montage_headline img {
+        position: relative;
+        font-weight: lighter;
+        max-width: 45%;
+        min-width: 20rem;
+        padding-top: 0rem;
+        padding-bottom: 2rem; 
+        float: none;
+        padding-right: 0rem;
+        }
+    
+    .mid_center_section_montage {
+        position: relative;
+        padding-left: 3rem;
+        max-width: 80%;
+        width: 80%;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        text-align: center;
+        padding-right: 0rem;
+    }
+    
+    .picture_grid_montage { 
+        display: grid;
+        grid-auto-flow: column;
+        position: relative;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 10%;
+        max-width: 100rem;
+        grid-gap: 2rem;
+        justify-items: center;
+        margin: auto;
+    
+    }
+    .picture_grid_montage img{
+        width: 100%;
+        max-width: 20rem;
+        max-height: 100%;
+        padding-bottom: 5rem;
+        transition: transform .2s; /* Animation */
+    }
+    .picture_grid_montage img:hover{
+            transform: scale(1.5);
+        }
 }
