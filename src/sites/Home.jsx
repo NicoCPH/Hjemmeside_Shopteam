@@ -1,8 +1,3 @@
-import '../styles/App.css';
-import '../styles/home.css';
-import React from "react";
-
-
 
 function Home() {
   return (
@@ -18,7 +13,7 @@ function Home() {
     </div>
     
   <div className="parentdiv">
-    <img src={require("../images/circle_in_circles2.PNG")} alt="" />
+    <img src={require("../images/circles_gray_v4.png")} alt="" />
   </div>
 
     </div>

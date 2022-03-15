@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import App from "./Home-old";
+
 
 export default function Nav_router() {
   return (
