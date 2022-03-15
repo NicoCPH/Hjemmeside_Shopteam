@@ -6,7 +6,43 @@
 .content {
   min-height: 70vh;
 }
+.site_header {
+  /*display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+  background-image: linear-gradient(
+    155deg,
+    hsl(0deg 0% 85%) 0%,
+    hsl(344deg 0% 77%) 23%,
+    hsl(344deg 0% 68%) 32%,
+    hsl(344deg 0% 60%) 39%,
+    hsl(344deg 0% 52%) 46%,
+    hsl(344deg 0% 44%) 52%,
+    hsl(344deg 0% 36%) 57%,
+    hsl(344deg 0% 29%) 63%,
+    hsl(344deg 0% 22%) 68%,
+    hsl(344deg 0% 15%) 75%,
+    hsl(343deg 0% 9%) 82%,
+    hsl(0deg 0% 0%) 100%
+  );
+  min-height: 10rem;
+  max-height: 21rem;
+}
 
+.image_logo {
+  background-image: url("../images/logo.png");
+  background-size: 11rem;
+  min-width: 7rem;
+  width: 13rem;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 5rem;
+  min-height: 5rem;
+  bottom: 1rem;
+  left: 10rem;
+}
+
+/*
 .site_header {
   display: flex;
   justify-content: space-around;
@@ -42,7 +78,7 @@
   margin: auto;
   padding-top: 2rem;
   left: 6rem;
-}
+}*/
 
 .site_header ul {
   position: relative;
@@ -66,9 +102,6 @@
 }
 
 @media only screen and (max-width: 1483px) {
-  .image_logo {
-    display: none;
-  }
   .site_header ul {
     padding-right: 15rem;
   }
@@ -107,4 +140,64 @@
   top: 3rem;
   position: relative;
   max-width: 40rem;
+}
+
+
+
+.navbar-toggler{
+  padding-right: 2rem;
+}
+.navbar-light .navbar-toggler-icon {
+  /* background-image: none!important; */
+  background: #cecece!important;
+  box-shadow: 0 10px 0 #cecece, 0 20px 0 #cecece!important;
+  width: 2.2rem;
+  height: 3.5px;
+  vertical-align: top;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-nav{
+  padding-top: 5rem;
+  padding-left: 15rem !important;
+
+}
+.nav-link{
+  display: inline-block!important;
+  text-decoration: none!important;
+  font-weight: light;
+  font-size: 1.5rem;
+  color: white !important;
+  margin-left: 1.5rem;
+}
+
+
+@media only screen and (max-width: 990px) {
+.nav-link{
+  display: inline-block!important;
+  text-decoration: none!important;
+  font-weight: bold;
+  font-size: large;
+}
+.navbar-nav{
+  padding-left: 0 !important;
+}
+.image_logo {
+  left: 2rem;
+  top: 0;
+  padding-left: 2.5rem;
+}
+.nav-link{
+  display: inline-block!important;
+  text-decoration: none!important;
+  font-weight: bold;
+  color: none;
+}
 }

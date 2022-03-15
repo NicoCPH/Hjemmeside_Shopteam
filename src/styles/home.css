@@ -7,6 +7,8 @@
  font-size: 4rem;
  font-family: Oswald, sans-serif;
  font-weight: 50;
+ padding-top: 2rem;
+ padding-bottom: 3rem;
 }
 
 .home_page_start_text p {
@@ -15,6 +17,7 @@
     font-weight: 50;
     bottom: 2rem;
     position: relative;
+    padding-bottom: 2rem;
    }
 
 .picture_grid { 

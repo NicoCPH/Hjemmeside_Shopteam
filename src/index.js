@@ -4,15 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  HashRouter,
+  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <App />
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
