@@ -48,7 +48,7 @@ function Kontakt() {
                     </div>
                 </div>
                 <div className="kontakt_body_right">
-                    <iframe src=
+                    <iframe className="map" src=
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.724603636316!2d12.43559018095462!3d55.65899878062366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465256cba7410199%3A0x9a0d68c29fc71425!2sVestre%20Gade%206%2C%202605%20Br%C3%B8ndby!5e0!3m2!1sda!2sdk!4v1647449150214!5m2!1sda!2sdk" 
                         style= {{width:"100%",
                         height:"100%",
