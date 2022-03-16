@@ -100,7 +100,7 @@
         grid-auto-flow: column;
         position: relative;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 10%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         max-width: 100rem;
         grid-gap: 2rem;
         justify-items: center;
