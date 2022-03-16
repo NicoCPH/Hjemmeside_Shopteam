@@ -41,7 +41,7 @@ function Kontakt() {
                         </div>
                     </div>
                     <div className="kontakt_body_address">
-                    <p>Shop team International <br/>Vallensbækvej 55<br/>DK-2605 Broendby<br/>Denmark</p>
+                    <p>Shop team International <br/>Vestre gade 6<br/>DK-2605 Broendby<br/>Denmark</p>
                     </div>
                     <div className="kontakt_body_contact">
                     <p>Tel: +45 3648 2121<br/>Fax: +45 3648 2323</p>
@@ -49,7 +49,7 @@ function Kontakt() {
                 </div>
                 <div className="kontakt_body_right">
                     <iframe src=
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.772914252572!2d12.379642766016449!3d55.64327418144199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525717b101d913%3A0x4028b1c1029fcf88!2sVallensb%C3%A6kvej%2055%2C%202605%20Br%C3%B8ndby!5e0!3m2!1sda!2sdk!4v1647446092207!5m2!1sda!2sdk"
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.724603636316!2d12.43559018095462!3d55.65899878062366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465256cba7410199%3A0x9a0d68c29fc71425!2sVestre%20Gade%206%2C%202605%20Br%C3%B8ndby!5e0!3m2!1sda!2sdk!4v1647449150214!5m2!1sda!2sdk" 
                         style= {{width:"100%",
                         height:"100%",
                         frameborder:"0",
