@@ -60,7 +60,7 @@
   .picture_grid { 
     position: relative;
     display: grid;
-    max-width: 13rem;
+    max-width: 20rem;
     grid-auto-flow: row;
     gap: 2rem;
     justify-items: center;

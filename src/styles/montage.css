@@ -83,14 +83,18 @@
     
     .mid_center_section_montage {
         position: relative;
-        padding-left: 3rem;
-        max-width: 80%;
-        width: 80%;
+        margin: auto;
+        padding: 0;
+        width: 100%;
         padding-top: 1rem;
         padding-bottom: 3rem;
         text-align: center;
         padding-right: 0rem;
     }
+    .mid_center_section_montage p{
+        font-size: 1rem;
+    }
+    
     
     .picture_grid_montage { 
         display: grid;
