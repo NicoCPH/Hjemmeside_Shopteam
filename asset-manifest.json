@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Hjemmeside_Shopteam/static/css/main.7d3aa962.css",
-    "main.js": "/Hjemmeside_Shopteam/static/js/main.616d3a2d.js",
+    "main.css": "/Hjemmeside_Shopteam/static/css/main.7bc50753.css",
+    "main.js": "/Hjemmeside_Shopteam/static/js/main.eb2ef33e.js",
     "static/js/787.41534379.chunk.js": "/Hjemmeside_Shopteam/static/js/787.41534379.chunk.js",
     "static/media/img-montage.jpg": "/Hjemmeside_Shopteam/static/media/img-montage.48f1d906fd386e994182.jpg",
     "static/media/intro01_02.jpg": "/Hjemmeside_Shopteam/static/media/intro01_02.fc372967d84c5f9f4153.jpg",
     "static/media/Oswald-VariableFont_wght.ttf": "/Hjemmeside_Shopteam/static/media/Oswald-VariableFont_wght.1480e295ab356d039e8d.ttf",
     "static/media/circles_gray_v4.png": "/Hjemmeside_Shopteam/static/media/circles_gray_v4.78810e72b7f2c3916df0.png",
     "index.html": "/Hjemmeside_Shopteam/index.html",
-    "main.7d3aa962.css.map": "/Hjemmeside_Shopteam/static/css/main.7d3aa962.css.map",
-    "main.616d3a2d.js.map": "/Hjemmeside_Shopteam/static/js/main.616d3a2d.js.map",
+    "main.7bc50753.css.map": "/Hjemmeside_Shopteam/static/css/main.7bc50753.css.map",
+    "main.eb2ef33e.js.map": "/Hjemmeside_Shopteam/static/js/main.eb2ef33e.js.map",
     "787.41534379.chunk.js.map": "/Hjemmeside_Shopteam/static/js/787.41534379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d3aa962.css",
-    "static/js/main.616d3a2d.js"
+    "static/css/main.7bc50753.css",
+    "static/js/main.eb2ef33e.js"
   ]
 }
