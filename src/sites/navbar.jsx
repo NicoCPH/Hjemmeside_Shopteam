@@ -48,7 +48,7 @@ function Navbar_footer(props){
   <Dropdown
     placeholder='Select Country'
     onChange={props.handleChange}
-    selection
+    selection={"en"}
     options={props.countryOptions}
     
     /></div></Navbar>

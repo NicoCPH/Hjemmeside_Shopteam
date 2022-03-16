@@ -3,7 +3,7 @@ import './styles/home.css';
 import './styles/production.css'
 import './styles/montage.css'
 import './styles/projekter.css'
-import React, { Suspense} from 'react';
+import React, { useEffect, Suspense} from 'react';
 import './styles/Kontakt.css'
 
 import {
@@ -20,7 +20,7 @@ import Kontakt from './sites/Kontakt';
 import { useTranslation } from 'react-i18next';
 import i18n from './translations/118n';
 const countryOptions = [
-  { key: 'de', value: 'de', flag: 'de', text: 'Dutch' },
+  { key: 'de', value: 'de', flag: 'de', text: 'Deutsch' },
   { key: 'dk', value: 'dk', flag: 'dk', text: 'Danish' },
   { key: 'en', value: 'en', flag: 'gb', text: 'English' },
 ]
@@ -35,9 +35,10 @@ const { t } = useTranslation();
 
 const changeLanguage = (lng) => {
   i18n.changeLanguage(lng);
-
 }
-
+useEffect(() => { 
+  changeLanguage("en")  
+  }, []);
   return (
     <div className="App">
     <NavbarFooter handleChange={handleChange} t={t} countryOptions={countryOptions}/>
