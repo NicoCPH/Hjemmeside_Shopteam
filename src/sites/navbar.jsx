@@ -1,18 +1,11 @@
-import React, { Component, Suspense } from 'react';
+import React from 'react';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
   import { Navbar, Nav, NavItem } from "react-bootstrap";
-  import { Dropdown, DropdownItem } from 'semantic-ui-react'
+  import { Dropdown } from 'semantic-ui-react'
 
-  const countryOptions = [
-    { key: 'de', value: 'de', flag: 'de', text: 'Germany' },
-    { key: 'dk', value: 'dk', flag: 'dk', text: 'Denmark' },
-    { key: 'en', value: 'en', flag: 'gb', text: 'English' },
-  ]
+
 function Navbar_footer(props){
 
 
@@ -56,7 +49,7 @@ function Navbar_footer(props){
     placeholder='Select Country'
     onChange={props.handleChange}
     selection
-    options={countryOptions}
+    options={props.countryOptions}
     
     /></div></Navbar>
             </>

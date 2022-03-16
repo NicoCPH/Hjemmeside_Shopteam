@@ -5,8 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   HashRouter,
-  Routes,
-  Route,
 } from "react-router-dom";
 import './translations/118n';
 const styleLink = document.createElement("link");
