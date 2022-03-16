@@ -4,15 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
+import './translations/118n';
+const styleLink = document.createElement("link");
+styleLink.rel = "stylesheet";
+styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css";
+document.head.appendChild(styleLink);
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 

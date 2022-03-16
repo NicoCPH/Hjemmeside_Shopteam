@@ -86,9 +86,9 @@
     
     .mid_center_section {
         position: relative;
-        padding-left: 3rem;
-        max-width: 80%;
-        width: 80%;
+        margin: auto;
+        padding: 0;
+        width: 100%;
         padding-top: 1rem;
         padding-bottom: 3rem;
         text-align: center;
@@ -100,7 +100,7 @@
         grid-auto-flow: column;
         position: relative;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 10%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         max-width: 100rem;
         grid-gap: 2rem;
         justify-items: center;
