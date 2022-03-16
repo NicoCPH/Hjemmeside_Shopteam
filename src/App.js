@@ -4,6 +4,8 @@ import './styles/production.css'
 import './styles/montage.css'
 import './styles/projekter.css'
 import React, { Component, Suspense, useState } from 'react';
+import './styles/Kontakt.css'
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,6 +18,7 @@ import Footer from './sites/Footer';
 import Produktion from './sites/Produktion';
 import Montage from './sites/Montage';
 import Projekter from './sites/Projekter';
+import Kontakt from './sites/Kontakt';
 import { useTranslation, withTranslation, Trans } from 'react-i18next';
 import i18n from './translations/118n';
 const countryOptions = [
@@ -34,7 +37,9 @@ const { t } = useTranslation();
 
 const changeLanguage = (lng) => {
   i18n.changeLanguage(lng);
-};
+
+
+
   return (
     <div className="App">
     <Navbar_Footer handleChange={handleChange} t={t}/>
@@ -45,10 +50,11 @@ const changeLanguage = (lng) => {
       
         <Route path="/Montage" element={<Montage/>} />
         <Route path="/Projekter" element={<Projekter/>} />
-        <Route path="/Kontakt" element={"nothing"} />
-    </Routes>  
- 
-    </div>   
+
+        <Route path="/Kontakt" element={<Kontakt/>} />
+    </Routes>
+    </div>
+
     <div className="footer">
         <Footer/>
         </div>
