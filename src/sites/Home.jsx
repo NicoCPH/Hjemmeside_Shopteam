@@ -3,13 +3,37 @@ import Circle from '../scripts/circles'
 function Home(props) {
 const [value, setValue] = useState(props.t)
 
+
+function Picture_circle() {
+  let url
+  if (props.t("home.lng") === "en") {
+    console.log(props.t("home.lng"))
+    url = require("../images/circles_gray_v4.png")
+    console.log(url)
+  } else if(props.t("home.lng") === "de") {
+    console.log(props.t("home.lng"))
+    url = require("../images/circles-v3.png")
+    console.log(url)
+  } else {
+    console.log(props.t("home.lng"))
+    url = require("../images/circle-v1.2.png.png")
+    console.log(url)
+  }
+return(
+  <div className="parentdiv">
+  <img src={url} alt="" /> 
+  </div>
+)
+}
 const firstRun = useRef(true);
 useEffect(() => { 
   if (firstRun.current) {
+
     console.log('rendered!')
     firstRun.current = false;
     return;
   }
+
     }, [props.t("home.welcome")]);
 
   return (
@@ -24,11 +48,7 @@ useEffect(() => {
     <img src={require("../images/intro01_02.jpg")} alt="" />
     <img src={require("../images/intro01_02.jpg")} alt="" />
     </div>
-    <div className="parentdiv">
-    <div id='parentdivs'>
-
-    {/* <img src={require("../images/circles_gray_v4.png")} alt="" /> */}
-    </div></div> 
+    <Picture_circle/>
     </div>
   );
 }

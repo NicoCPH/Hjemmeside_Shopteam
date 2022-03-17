@@ -1,19 +1,26 @@
+@font-face {
+  font-family: Oswald;
+  src: url("./Oswald-VariableFont_wght.ttf");
+  
+}
+
 .home_page_start_text  {
     text-align: center;
     position: relative;
 }
 
 .home_page_start_text h1 {
- font-size: 4rem;
- font-family: Oswald, sans-serif;
+ font-size: 5rem;
+ font-family: Oswald;
  font-weight: 50;
  padding-top: 2rem;
  padding-bottom: 3rem;
+ font-weight: 500;
 }
 
 .home_page_start_text p {
     font-size: 4rem;
-    font-family: Oswald, sans-serif;
+    font-family: Oswald;
     font-weight: 50;
     bottom: 2rem;
     position: relative;
@@ -42,13 +49,10 @@
   }
 .parentdiv {
     position: relative;
-    padding-top: 20rem;
-    padding-bottom: 50rem;
     margin: auto;
-    max-width: 100rem;
-    max-height: 50rem;
-    width: 60rem;
-    height: 60rem;
+    padding-top: 5rem;
+    align-content: center;
+    padding-left: 2rem;
   }
  .parentdiv img {
     width: 60%;
@@ -93,83 +97,3 @@
 }
  
 
-#parentdivs {
-  position: relative;
-  width: 20rem;
-  height: 20rem;
-  background-color: #1E1E1F;
-  color: white;
-  border-radius: 10rem;
-  margin: auto;
-  font-family: Oswald, sans-serif;
-}
-#parentdivs h1 {
-  text-align: center;
-  position: relative;
-  font-size: 1.4rem;
-  top: 5rem;
-  max-width: 15rem;
-  padding-left: 2.5rem;
-
-}
-
-.parent_p {
-  position: relative;
-  top: 5.5rem;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.div2 {
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  background-color: #1E1E1F;
-  border-radius: 9rem;
-}
-
-.div3 {
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  background-color: #1E1E1F;
-  border-radius: 9rem;
-
-}.div4 {
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  background-color: #1E1E1F;
-  border-radius: 9rem;
-}
-.div5 {
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  background-color: #1E1E1F;
-  border-radius: 9rem;
-  
-}
-.div6 {
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  background-color: #1E1E1F;
-  border-radius: 9rem;
-}
-
-.div7 {
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  background-color: #1E1E1F;
-  border-radius: 9rem;
-}
-
-.div1{
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  background-color: #1E1E1F;
-  border-radius: 9rem;
-}
