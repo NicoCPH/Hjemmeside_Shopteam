@@ -2,12 +2,14 @@
 
 .projekter_headline h1 {
     position: relative;
-    font-size: 7rem;
+    font-size: 8rem;
     font-weight: lighter;
+    font-family: MAU;
     float: left;
-    padding: 8rem;
+    padding-left: 11rem;
+    padding-top: 12rem;
     max-width: 45%;
-    
+    margin: auto;
 }
 
 .projekter_headline img {
