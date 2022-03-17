@@ -42,10 +42,13 @@
   }
 .parentdiv {
     position: relative;
+    padding-top: 20rem;
+    padding-bottom: 50rem;
     margin: auto;
-    padding-top: 5rem;
-    align-content: center;
-    padding-left: 2rem;
+    max-width: 100rem;
+    max-height: 50rem;
+    width: 60rem;
+    height: 60rem;
   }
  .parentdiv img {
     width: 60%;
@@ -89,3 +92,84 @@
  
 }
  
+
+#parentdivs {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  background-color: #1E1E1F;
+  color: white;
+  border-radius: 10rem;
+  margin: auto;
+  font-family: Oswald, sans-serif;
+}
+#parentdivs h1 {
+  text-align: center;
+  position: relative;
+  font-size: 1.4rem;
+  top: 5rem;
+  max-width: 15rem;
+  padding-left: 2.5rem;
+
+}
+
+.parent_p {
+  position: relative;
+  top: 5.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.div2 {
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  background-color: #1E1E1F;
+  border-radius: 9rem;
+}
+
+.div3 {
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  background-color: #1E1E1F;
+  border-radius: 9rem;
+
+}.div4 {
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  background-color: #1E1E1F;
+  border-radius: 9rem;
+}
+.div5 {
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  background-color: #1E1E1F;
+  border-radius: 9rem;
+  
+}
+.div6 {
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  background-color: #1E1E1F;
+  border-radius: 9rem;
+}
+
+.div7 {
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  background-color: #1E1E1F;
+  border-radius: 9rem;
+}
+
+.div1{
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  background-color: #1E1E1F;
+  border-radius: 9rem;
+}

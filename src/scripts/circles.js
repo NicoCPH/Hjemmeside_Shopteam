@@ -76,6 +76,6 @@ para_7.style.fontSize = '0.9rem';
 var text = document.createTextNode("Metal- und Drahtherstellung");
 para_7.appendChild(text)
 }
-const loadMyScript = () => window.addEventListener('load', () => Circle())
 
-export default loadMyScript
+
+export default Circle

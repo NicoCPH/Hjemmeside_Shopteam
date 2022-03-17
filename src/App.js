@@ -19,6 +19,7 @@ import Projekter from './sites/Projekter';
 import Kontakt from './sites/Kontakt';
 import { useTranslation } from 'react-i18next';
 import i18n from './translations/118n';
+import Circle from './scripts/circles'
 const countryOptions = [
   { key: 'de', value: 'de', flag: 'de', text: 'Deutsch' },
   { key: 'dk', value: 'dk', flag: 'dk', text: 'Danish' },
