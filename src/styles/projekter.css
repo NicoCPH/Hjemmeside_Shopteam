@@ -2,7 +2,7 @@
 
 .projekter_headline h1 {
     position: relative;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: lighter;
     font-family: MAU;
     float: left;
@@ -59,6 +59,7 @@
 
 .column img {
 max-width: 30rem;
+width: 70rem;
 padding: 1.5rem;
 }
 
@@ -88,7 +89,7 @@ padding: 1.5rem;
 
 .column.right img {
     padding-right: 8rem;
-    padding-left: 10%;
+    width: 100%;
     }
     
 .column_text.right {
@@ -111,6 +112,7 @@ padding: 1.5rem;
 }
 .column.left img {
     padding-right: 4rem;
+    
     }
     
 .column_text.left {

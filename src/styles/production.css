@@ -9,9 +9,24 @@
     font-family: MAU;
     src: url('./chinese.msyh.ttf');
   }
+
+.slider {
+    position: relative;
+    align-content: center;
+    padding-left: 32rem;
+}
+.carousel {
+    max-width: 70rem;
+    width: 70rem;
+    height: 100%;
+}
+.carousel-item img{
+    width: 10rem;
+    height: 40rem;
+}
 .poduction_headline h1 {
-position: relative;
-    font-size: 8rem;
+    position: relative;
+    font-size: 7rem;
     font-weight: 100;
     font-family: MAU;
     float: left;
