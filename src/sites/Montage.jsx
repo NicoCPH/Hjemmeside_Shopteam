@@ -1,4 +1,4 @@
-import { Carousel } from '@trendyol-js/react-carousel';
+
 
 function Montage() {
     return (
