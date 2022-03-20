@@ -141,7 +141,51 @@
   .picture_grid_produktion img:hover{
     /* transform: scale(1.1); */
 }
-@media only screen and (max-width: 1542px) {
+
+.picture_grid_produktion img:hover{
+        transform: scale(1.5);
+    }
+
+
+    @media only screen and (max-width: 1542px) {
+
+        .poduction_headline h1 {
+            position: relative;
+            font-size: 5rem;
+            font-weight: 100;
+            font-family: MAU;
+            float: left;
+            padding-left: 12rem;
+            padding-top: 11rem;
+            max-width: 35%;
+
+
+        }
+        
+        .poduction_headline img {
+            position: relative;
+            font-weight: lighter;
+            max-width: 35%;
+            min-width: 20rem;
+            padding-top: 5rem;
+            padding-bottom: 2rem; 
+            float: none;
+            padding-right: 0rem;
+            }
+        
+        .mid_center_section {
+            position: relative;
+            margin: auto;
+            padding: 5rem;
+            width: 60%;
+            padding-top: 2rem;
+            padding-bottom: 5rem;
+            padding-right: 0rem;
+        }
+        
+    }   
+@media only screen and (max-width: 1242px) {
+
 
     .poduction_headline h1 {
         position: relative;

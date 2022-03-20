@@ -23,17 +23,42 @@
     min-width: 20rem;
     }
 
+
+
  /*Dette skal ikke rettes fra linje 23 til 46*/   
-@media only screen and (max-width: 1670px) {
+@media only screen and (max-width: 1542px) {
+    .projekter_headline h1 {
+        position: relative;
+        font-size: 5rem;
+        font-weight: 100;
+        font-family: MAU;
+        float: left;
+        padding-left: 12rem;
+        padding-top: 11rem;
+        max-width: 35%;
+    }
+    
+    .projekter_headline img {
+        position: relative;
+        font-weight: lighter;
+        max-width: 35%;
+        min-width: 20rem;
+        padding-top: 5rem;
+        padding-bottom: 2rem; 
+        float: none;
+        padding-right: 0rem;
+        }
+}
+
+@media only screen and (max-width: 1242px) {
     .projekter_headline h1 {
         position: relative;
         font-size: 4em;
         font-weight: lighter;
-        padding-left: 2.5rem;
+        padding-left: 0rem;
         padding-bottom: 0rem;
-        padding-top: 0rem;
+        padding-top: 2rem;
         float: none;
-        padding: 0;
         max-width: 100%;
     }
     
@@ -42,32 +67,38 @@
         font-weight: lighter;
         max-width: 45%;
         min-width: 20rem;
-        padding-top: 0rem;
+        padding-top: 2rem;
         padding-bottom: 2rem; 
         float: none;
         padding-right: 0rem;
         }
-}
 
+
+}
 .grids {
-    padding-top: 5%;
-    display: grid;
-    width: 100%;
-    row-gap: 15rem;
-    padding-bottom: 5%;
+padding-top: 10rem;
+padding-bottom: 10rem;
+width: 100%;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr;
+gap: 20rem;
 }
 
 .column img {
-max-width: 30rem;
-width: 70rem;
-padding: 1.5rem;
+width: 100%;
+height: auto;
+padding: 3rem 5rem 3rem 5rem;
 }
 
 .column_text {
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: left;
-    max-width: 70%;
+    line-height: 1.6;
+}
+.column_text p{
+    line-height: 1.6;
 }
 
 .img_right_columns {
@@ -75,62 +106,70 @@ padding: 1.5rem;
     width: 100%;
     position: relative;
     display: grid;
-    grid-auto-flow: column;
-    align-items: center;
-    max-height: 20rem;
-    height: 20rem;
-    
+    grid-template-columns: 45% 50%;
+    align-items: center; 
 }   
-.img_right_columns.first {
-    background-color: #97979B;
-}
-
-
-
-.column.right img {
-    padding-right: 8rem;
-    width: 100%;
-    }
-    
-.column_text.right {
-    padding-left: 10rem;
-    }
 
 .img_left_columns {
     background-color: #B6B6B9;
     width: 100%;
     position: relative;
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 50% 45%;
     align-items: center;
-    max-height: 30rem;
-    height: 20rem;
-}
-
-.img_left_columns.first{
-    background-color: #828287;
-}
-.column.left img {
-    padding-right: 4rem;
-    
+    gap: 7rem; 
+}   
+.column.right img {
+    padding: 5rem 15rem 5rem 5rem;
     }
-    
+.column.left img {
+
+    padding: 5rem 5rem 5rem 15rem;
+    }
+
+    .img_right_columns.first {
+        background-color: #97979B;
+    }
+
+    .img_left_columns.first{
+        background-color: #828287;
+
+    }
 .column_text.left {
     padding-left: 10rem;
     }
-
+    
+.column_text.right {
+    padding-left: 10rem;
+    }
 
 @media only screen and (max-width: 1432px) {
-    .column img {
-        max-width: 30rem;
-        padding: 1.5rem;
+    .grids {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15rem;
+        }
+        
+        .column img {
+        width: 100%;
+        height: auto;
+
         }
         
         .column_text {
             position: relative;
-            font-size: 1.1rem;
+            font-size: 1rem;
             text-align: left;
-            max-width: 70%;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+        }
+        .column_text p{
+            line-height: 1.6;
         }
         
         .img_right_columns {
@@ -138,47 +177,129 @@ padding: 1.5rem;
             width: 100%;
             position: relative;
             display: grid;
-            grid-auto-flow: column;
-            align-items: center;
-            max-height: 20rem;
-            height: 20rem;
-            
+            grid-template-columns: 50% 50%;
+            align-items: center; 
         }   
-        .img_right_columns.first {
-            background-color: #97979B;
-        }
-        
-        
-        
-        .column.right img {
-            padding-right: 8rem;
-            padding-left: 10%;
-            }
-            
-        .column_text.right {
-            padding-left: 10rem;
-            }
-        
         .img_left_columns {
             background-color: #B6B6B9;
             width: 100%;
             position: relative;
             display: grid;
-            grid-auto-flow: column;
+            grid-template-columns: 50% 50%;
             align-items: center;
-            max-height: 30rem;
-            height: 20rem;
-        }
-        
-        .img_left_columns.first{
-            background-color: #828287;
-        }
+            gap: 4rem; 
+        }   
+        .column.right img {
+            padding: 5rem 5rem 5rem 2rem;
+            }
         .column.left img {
-            padding-right: 4rem;
+            padding: 5rem 5.5rem 5rem 2rem;
+            }
+        
+            .img_right_columns.first {
+                background-color: #97979B;
+            }
+        
+            .img_left_columns.first{
+                background-color: #828287;
+            }
+        .column_text.left {
+            padding-left: 5rem;
             }
             
-        .column_text.left {
-            padding-left: 10rem;
+        .column_text.right {
+            padding-left: 5rem;
             }
         
     }
+
+    @media only screen and (max-width: 768px) {
+        .projekter_headline img {
+            position: relative;
+            font-weight: lighter;
+            max-width: 70%;
+            min-width: 25rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem; 
+            float: none;
+            padding-right: 0rem;
+            }
+    
+        .grids {
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            grid-template-columns: 1fr;
+            }
+            
+            .column img {
+            width: 90%;
+            height: auto;
+            
+            }
+            
+            .column_text {
+                position: relative;
+                font-size: 1rem;
+                text-align: left;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+    
+            }
+            .column_text p{
+                line-height: 1.6;
+            }
+            
+            .img_right_columns {
+                background-color: #D5D5D7;
+                width: 100%;
+                position: relative;
+                display: block;
+                grid-template-columns: 50% 50%;
+                align-items: center; 
+                margin-bottom: 5rem;
+            }   
+            .img_left_columns {
+                background-color: #B6B6B9;
+                width: 100%;
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr;
+                align-items: center;
+                margin-bottom: 5rem;
+                gap:0;
+            }   
+            .column.right img {
+
+                padding: 0;
+                padding-top: 2rem;
+                }
+            .column.left img {
+                padding: 0;
+                padding-top: 2rem;
+                
+                }
+            .column.left {
+                grid-row-end: 1;
+            }
+            
+            .img_right_columns.first {
+            background-color: #97979B;
+            }
+        
+            .img_left_columns.first{
+            background-color: #828287;
+            }
+            .column_text.left {
+                padding: 2rem;;
+                grid-row-start: 2;
+                }
+                
+            .column_text.right {
+                padding-left: 0rem;
+                padding: 2rem;
+                }
+            
+        }
