@@ -6,17 +6,13 @@ function Picture_circle() {
   let url
   if (props.t("home.lng") === "en") {
     console.log(props.t("home.lng"))
-    url = require("../images/circles_gray_v4.png")
-    console.log(url)
-  } else if(props.t("home.lng") === "de") {
-    console.log(props.t("home.lng"))
-    url = require("../images/circles-v3.png")
+    url = require("../images/CIRCLES_EN_OSWALD_Y.png")
     console.log(url)
   } else {
     console.log(props.t("home.lng"))
-    url = require("../images/circle-v1.2.png.png")
+    url = require("../images/CIRCLES_DE.png")
     console.log(url)
-  }
+  } 
 return(
   <div className="parentdiv">
   <img src={url} alt="" /> 

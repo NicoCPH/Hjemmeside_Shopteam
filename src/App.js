@@ -23,7 +23,6 @@ import i18n from './translations/118n';
 
 const countryOptions = [
   { key: 'de', value: 'de', flag: 'de', text: 'Deutsch' },
-  { key: 'dk', value: 'dk', flag: 'dk', text: 'Danish' },
   { key: 'en', value: 'en', flag: 'gb', text: 'English' },
 ]
 

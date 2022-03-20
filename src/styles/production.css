@@ -138,12 +138,9 @@
     object-fit: cover;
   }
 
-  .picture_grid_produktion img:hover{
-    /* transform: scale(1.1); */
-}
 
 .picture_grid_produktion img:hover{
-        transform: scale(1.5);
+        transform: scale(1.02);
     }
 
 
