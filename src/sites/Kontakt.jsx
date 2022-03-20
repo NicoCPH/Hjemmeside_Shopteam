@@ -15,8 +15,8 @@ function Kontakt() {
                         <div className="grid">
                             <ul>
                                 <li>Denmark</li>
-                                <li>Russia</li>
                                 <li>Czech Republic</li>
+                                <li>Russia</li>
                                 <li>Poland</li>
                                 <li>Germany</li>
                             </ul>
@@ -37,6 +37,11 @@ function Kontakt() {
                                 <li>Bulgaria</li>
                                 <li>Hungary</li>
                                 <li>Latvia</li>
+                            </ul>
+                        </div>
+                        <div className="grid">
+                            <ul>
+                                <li>Slovakia</li>
                             </ul>
                         </div>
                     </div>

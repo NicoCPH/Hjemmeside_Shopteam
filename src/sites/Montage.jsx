@@ -1,3 +1,5 @@
+
+
 function Montage() {
     return (
         <div className="montage">
@@ -31,6 +33,8 @@ function Montage() {
                 <img src={require("../images/intro01_02.jpg")} alt="" />
                 <img src={require("../images/intro01_02.jpg")} alt="" />
             </div>
+            
+
             </section>
             
             

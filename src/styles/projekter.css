@@ -2,7 +2,7 @@
 
 .projekter_headline h1 {
     position: relative;
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: lighter;
     font-family: MAU;
     float: left;
@@ -109,6 +109,7 @@ padding: 3rem 5rem 3rem 5rem;
     grid-template-columns: 45% 50%;
     align-items: center; 
 }   
+
 .img_left_columns {
     background-color: #B6B6B9;
     width: 100%;
@@ -122,6 +123,7 @@ padding: 3rem 5rem 3rem 5rem;
     padding: 5rem 15rem 5rem 5rem;
     }
 .column.left img {
+
     padding: 5rem 5rem 5rem 15rem;
     }
 
@@ -131,6 +133,7 @@ padding: 3rem 5rem 3rem 5rem;
 
     .img_left_columns.first{
         background-color: #828287;
+
     }
 .column_text.left {
     padding-left: 10rem;

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Oswald, sans-serif;
+    font-family: Oswald;
     src: url("Oswald-VariableFont_wght.ttf");
 
 
@@ -9,9 +9,26 @@
     font-family: MAU;
     src: url('./chinese.msyh.ttf');
   }
+
+.slider {
+    position: relative;
+    align-content: center;
+    padding-left: 32rem;
+}
+.carousel {
+    max-width: 70rem;
+    width: 70rem;
+    height: 100%;
+    position:absolute;
+    visibility: hidden;
+}
+.carousel-item img{
+    width: 10rem;
+    height: 40rem;
+}
 .poduction_headline h1 {
-position: relative;
-    font-size: 8rem;
+    position: relative;
+    font-size: 7rem;
     font-weight: 100;
     font-family: MAU;
     float: left;
@@ -56,19 +73,75 @@ position: relative;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    max-width: 100rem;
-    grid-gap: 2rem;
+    max-width: 120rem;
+    grid-gap: 4rem;
     justify-items: center;
     margin: auto;
 
 }
 .picture_grid_produktion img{
     width: 100%;
-    max-width: 20rem;
+    max-width: 30rem;
     max-height: 100%;
     padding-bottom: 5rem;
-    transition: transform .2s; /* Animation */
+    transition: 0.2s all ease-in-out;
 }
+.swiper {
+    width: 100%;
+    max-width: 30rem;
+    max-height: 100%;
+    padding-bottom: 5rem;
+  }
+
+  .swiper-slide-container {
+    position: absolute;
+    top: 15rem;
+    padding-top: 0.5rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8);
+    width: 15rem;
+    height: 4.07rem;
+    font-family: Oswald;
+  }
+  .first_slider_image{
+    opacity: 0.8;
+  }
+  .first_slider_image:hover {
+    opacity: 1.0;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .picture_grid_produktion img:hover{
+    /* transform: scale(1.1); */
+}
+
 .picture_grid_produktion img:hover{
         transform: scale(1.5);
     }
@@ -112,6 +185,7 @@ position: relative;
         
     }   
 @media only screen and (max-width: 1242px) {
+
 
     .poduction_headline h1 {
         position: relative;

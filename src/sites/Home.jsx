@@ -1,8 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react'
 import Circle from '../scripts/circles'
 function Home(props) {
-const [value, setValue] = useState(props.t)
-
 
 function Picture_circle() {
   let url

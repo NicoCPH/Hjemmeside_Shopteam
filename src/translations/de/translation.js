@@ -4,8 +4,8 @@ export const TRANSLATIONS_DE = {
          lng: "de"
         },
     nav:{
-    home: "Titelseite",
-    production: "Produktion",
+    home: "Home",
+    production: "Herstellung",
     montage: "Montage",
     projects: "Projekte",
     contact: "Kontakt"
