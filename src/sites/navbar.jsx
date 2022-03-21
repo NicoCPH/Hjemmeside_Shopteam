@@ -51,7 +51,6 @@ function Navbar_footer(props){
     selection
     defaultValue={'en'}
     options={props.countryOptions}
-    
     /></div></Navbar>
             </>
   );

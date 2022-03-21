@@ -1,4 +1,4 @@
-import Carousel from 'react-bootstrap/Carousel'
+
 import React, { useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,14 +6,9 @@ import { Navigation } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import { t } from 'i18next';
 
-const HoverableDiv = ({ handleMouseOver, handleMouseOut }) => {
-    return (
-      <img onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} src={require("../images/intro01_02.jpg")}>
-      </img>
-    );
-  };
+
+
 //   <div className="slider">
 //   <Carousel fade variant="dark">
 //       <Carousel.Item>
@@ -53,21 +48,10 @@ const HoverableDiv = ({ handleMouseOver, handleMouseOut }) => {
 //       </Carousel.Item>
 //       </Carousel>
 //   </div>
-  const HoverText = () => {
-    return (
-    <div>Hejsa</div>
-    );
-  };
+
 
 function Produktion(props) {
-    const [isHovering, setIsHovering] = useState(true);
-  const handleMouseOver = () => {
-    setIsHovering(true);
-  };
 
-  const handleMouseOut = () => {
-    setIsHovering(false);
-  };
     return (
         <div className="prodution">
             <div className="poduction_headline">
