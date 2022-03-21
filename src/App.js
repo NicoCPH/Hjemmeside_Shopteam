@@ -46,17 +46,17 @@ useEffect(() => {
     <div className="content">
     <Routes>
       <Route path="/" element={<Home handleChange={handleChange} t={t}/>}/>
-        <Route path="/Produktion" element={<Produktion/>} />
+        <Route path="/Produktion" element={<Produktion handleChange={handleChange} t={t}/>} />
       
-        <Route path="/Montage" element={<Montage/>} />
-        <Route path="/Projekter" element={<Projekter/>} />
+        <Route path="/Montage" element={<Montage handleChange={handleChange} t={t}/>} />
+        <Route path="/Projekter" element={<Projekter handleChange={handleChange} t={t}/>} />
 
-        <Route path="/Kontakt" element={<Kontakt/>} />
+        <Route path="/Kontakt" element={<Kontakt handleChange={handleChange} t={t}/>} />
     </Routes>
     </div>
 
     <div className="footer">
-        <Footer/>
+        <Footer handleChange={handleChange} t={t}/>
         </div>
     </div>
   );

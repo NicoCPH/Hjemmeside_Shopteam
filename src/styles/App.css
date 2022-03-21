@@ -60,10 +60,11 @@
 
 .footer_text {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns:  15% 20% 25% 20%;
   color: white;
   margin: auto;
   top: 3rem;
+  gap: 3rem;
   position: relative;
   max-width: 40rem;
 }

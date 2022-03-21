@@ -6,6 +6,7 @@ import { Navigation } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import { t } from 'i18next';
 
 const HoverableDiv = ({ handleMouseOver, handleMouseOut }) => {
     return (
@@ -58,7 +59,7 @@ const HoverableDiv = ({ handleMouseOver, handleMouseOut }) => {
     );
   };
 
-function Produktion() {
+function Produktion(props) {
     const [isHovering, setIsHovering] = useState(true);
   const handleMouseOver = () => {
     setIsHovering(true);
@@ -70,11 +71,11 @@ function Produktion() {
     return (
         <div className="prodution">
             <div className="poduction_headline">
-               <h1>Produktion</h1> 
+               <h1>{props.t("production.headline")}</h1> 
                <img src={require("../images/img-montage.jpg")} alt="" />
                </div>
             <section className="mid_center_section">
-                <h2>Alt fra én hånd</h2>
+                <h2>{props.t("production.h2")}</h2>
                <div className="center_text">
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae officiis obcaecati veniam iste ea error repellat explicabo facilis ab? Deserunt ea repellendus ad vitae quo ullam at animi porro.
                        Numquam molestias fugiat est magni nam cum nesciunt ullam odit maxime illo iure, placeat laborum rem amet cupiditate, soluta ipsam quia consequuntur quisquam aut quibusdam veritatis hic? At, corrupti quis?
