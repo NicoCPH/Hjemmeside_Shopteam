@@ -1,8 +1,8 @@
-function Projekter() {
+function Projekter(props) {
     return (
         <div className="projekter">
             <div className="projekter_headline">
-               <h1>Projekter</h1> 
+               <h1>{props.t("projects.headline")}</h1> 
                <img src={require("../images/img-montage.jpg")} alt="" />
                </div>
 

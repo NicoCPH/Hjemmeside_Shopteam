@@ -6,11 +6,11 @@ function Picture_circle() {
   let url
   if (props.t("home.lng") === "en") {
     console.log(props.t("home.lng"))
-    url = require("../images/CIRCLES_EN_OSWALD_Y.png")
+    url = require("../images/CIRCLES_EN_OSWALD.png")
     console.log(url)
   } else {
     console.log(props.t("home.lng"))
-    url = require("../images/CIRCLES_DE.png")
+    url = require("../images/CIRCLES_DE_OSWALD.png")
     console.log(url)
   } 
 return(
@@ -35,7 +35,7 @@ useEffect(() => {
     <div className="home">  
       <div className="home_page_start_text">
     <h1>{props.t("home.welcome")}</h1>
-    <p>Alles aus einer Hand</p>
+    <p>{props.t("home.h2")}</p>
   </div>
   <div className="picture_grid">
     <img src={require("../images/intro01_02.jpg")} alt="" />
