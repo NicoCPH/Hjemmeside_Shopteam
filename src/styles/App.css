@@ -60,13 +60,12 @@
 
 .footer_text {
   display: grid;
-  grid-template-columns:  15% 20% 25% 20%;
+  grid-template-columns:  25% 25% 25% 25%;
   color: white;
-  margin: auto;
   top: 3rem;
-  gap: 3rem;
+  align-self: center;
   position: relative;
-  max-width: 40rem;
+  max-width: 100%;
 }
 
 
