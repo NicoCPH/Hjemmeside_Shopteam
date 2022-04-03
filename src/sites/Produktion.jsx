@@ -61,23 +61,20 @@ function Produktion(props) {
             <section className="mid_center_section">
                 <h2>{props.t("production.h2")}</h2>
                <div className="center_text">
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae officiis obcaecati veniam iste ea error repellat explicabo facilis ab? Deserunt ea repellendus ad vitae quo ullam at animi porro.
-                       Numquam molestias fugiat est magni nam cum nesciunt ullam odit maxime illo iure, placeat laborum rem amet cupiditate, soluta ipsam quia consequuntur quisquam aut quibusdam veritatis hic? At, corrupti quis?
-                       Impedit quam fugiat eius, iusto recusandae molestias dicta repellat nobis provident, eaque molestiae voluptates mollitia assumenda, maxime rem maiores quod quidem esse fugit ad placeat repudiandae est eveniet? Porro, dolores.
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non pariatur at sed laboriosam assumenda ullam, tenetur exercitationem odit debitis id, sapiente numquam veritatis quisquam est maiores voluptatum placeat facilis?
-                       Corporis labore laudantium impedit aliquam tenetur, a vitae! Modi iusto vel eum, est quidem ratione omnis doloribus eius culpa dolore placeat obcaecati beatae, magnam consequatur error, ea dolorem odit illum.
+                       <p className="center_text_produktion">
+                         {props.t("production.centertext")}
                        </p> 
                 </div>
             </section>
             <section>
             <div className="picture_grid_produktion">
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]}  className="mySwiper">
         <SwiperSlide><img className='first_slider_image' src={require("../images/img-montage.jpg")} alt="" /><div className='swiper-slide-container'>Epoxy</div></SwiperSlide>
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
       </Swiper>
 
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide><img className='first_slider_image' src={require("../images/intro01_02.jpg")} alt="" /><div className='swiper-slide-container'>Wood Production</div></SwiperSlide>
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
@@ -88,7 +85,7 @@ function Produktion(props) {
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
       </Swiper>
-                      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide><img className='first_slider_image' src={require("../images/intro_small01.jpg")} alt="" /><div className='swiper-slide-container'>CNC Production</div></SwiperSlide>
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
         <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>

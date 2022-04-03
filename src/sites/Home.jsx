@@ -1,6 +1,8 @@
-import React, {useEffect, useState, useRef} from 'react'
-import Circle from '../scripts/circles'
+import React, {useEffect, useRef} from 'react'
+import {Circles} from '../scripts/circles'
 function Home(props) {
+
+
 
 function Picture_circle() {
   let url

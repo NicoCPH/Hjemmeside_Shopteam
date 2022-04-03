@@ -19,6 +19,9 @@
     margin: auto;
     
 }
+.center_text_montage {
+white-space: pre-line;
+}
 
 .montage_headline img {
     position: relative;

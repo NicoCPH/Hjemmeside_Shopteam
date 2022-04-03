@@ -14,43 +14,43 @@ function Kontakt(props) {
                     <div className="kontakt_body_countries_grid">
                         <div className="grid">
                             <ul>
-                                <li>Denmark</li>
-                                <li>Czech Republic</li>
-                                <li>Russia</li>
-                                <li>Poland</li>
-                                <li>Germany</li>
+                                <li>{props.t("contact.da")}</li>
+                                <li>{props.t("contact.czech")}</li>
+                                <li>{props.t("contact.pl")}</li>
+                                <li>{props.t("contact.ru")}</li>
+                                <li>{props.t("contact.de")}</li>
                             </ul>
                         </div>
                         <div className="grid">
                             <ul>
-                                <li>Spain</li>
-                                <li>Portugal</li>
-                                <li>Italy</li>
-                                <li>Ukraine</li>
-                                <li>Estonia</li>
+                                <li>{props.t("contact.sp")}</li>
+                                <li>{props.t("contact.po")}</li>
+                                <li>{props.t("contact.iy")}</li>
+                                <li>{props.t("contact.ukr")}</li>
+                                <li>{props.t("contact.est")}</li>
                             </ul>
                         </div>
                         <div className="grid">
                             <ul>
-                                <li>France</li>
-                                <li>Romania</li>
-                                <li>Bulgaria</li>
-                                <li>Hungary</li>
-                                <li>Latvia</li>
+                                <li>{props.t("contact.fr")}</li>
+                                <li>{props.t("contact.ro")}</li>
+                                <li>{props.t("contact.bl")}</li>
+                                <li>{props.t("contact.hu")}</li>
+                                <li>{props.t("contact.lat")}</li>
                             </ul>
                         </div>
                         <div className="grid">
                             <ul>
-                                <li>Slovakia</li>
+                                <li>{props.t("contact.slo")}</li>
                             </ul>
                         </div>
                     </div>
                     <p>{props.t("contact.p4")}</p>
                     <div className="kontakt_body_address">
-                    <p>Shop team International<br/>Vestre Gade 6<br/>DK-2605 Broendby (By Copenhagen)<br/>Denmark</p>
+                    <p>{props.t("contact.name")}<br/>Vestre Gade 6<br/>{props.t("contact.city")}<br/>Denmark</p>
                     </div>
                     <div className="kontakt_body_contact">
-                    <p>Tel: +45 3648 2121<br/>Handy: +45 2015 7811<br/>Fax: +45 3648 2323</p>
+                    <p>Tel: +45 3648 2121<br/>Handy: +45 2015 7811<br/>Fax: +45 3648 2323<br/>Email: <a href="mailto:info@shopteam.eu">info@shopteam.eu</a></p>
                     </div>
                 </div>
                 <div className="kontakt_body_right">

@@ -3,6 +3,16 @@
   src: url("./Oswald-VariableFont_wght.ttf");
   
 }
+#parentdiv {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  background-color: #1E1E1F;
+  color: white;
+  border-radius: 10rem;
+  margin: 50rem;
+  font-family: Oswald, sans-serif;
+}
 
 .home_page_start_text  {
     text-align: center;
