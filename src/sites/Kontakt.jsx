@@ -17,7 +17,7 @@ function Kontakt(props) {
                                 <li>{props.t("contact.da")}</li>
                                 <li>{props.t("contact.czech")}</li>
                                 <li>{props.t("contact.pl")}</li>
-                                <li>{props.t("contact.ru")}</li>
+                                <li>{props.t("contact.slo")}</li>
                                 <li>{props.t("contact.de")}</li>
                             </ul>
                         </div>
@@ -25,7 +25,7 @@ function Kontakt(props) {
                             <ul>
                                 <li>{props.t("contact.sp")}</li>
                                 <li>{props.t("contact.po")}</li>
-                                <li>{props.t("contact.iy")}</li>
+                                <li>{props.t("contact.it")}</li>
                                 <li>{props.t("contact.ukr")}</li>
                                 <li>{props.t("contact.est")}</li>
                             </ul>
@@ -37,11 +37,6 @@ function Kontakt(props) {
                                 <li>{props.t("contact.bl")}</li>
                                 <li>{props.t("contact.hu")}</li>
                                 <li>{props.t("contact.lat")}</li>
-                            </ul>
-                        </div>
-                        <div className="grid">
-                            <ul>
-                                <li>{props.t("contact.slo")}</li>
                             </ul>
                         </div>
                     </div>

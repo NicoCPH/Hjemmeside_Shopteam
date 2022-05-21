@@ -26,6 +26,10 @@
     width: 10rem;
     height: 40rem;
 }
+
+.poduction_headline {
+    padding-top: 10rem;
+}
 .poduction_headline h1 {
     position: relative;
     font-size: 7rem;

@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  HashRouter,
+  BrowserRouter,
 } from "react-router-dom";
 import './translations/118n';
 const styleLink = document.createElement("link");
@@ -13,9 +13,9 @@ styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css
 document.head.appendChild(styleLink);
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter basename="/Hjemmeside_Shopteam">
     <App />
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

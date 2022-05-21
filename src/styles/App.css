@@ -66,6 +66,7 @@
   align-self: center;
   position: relative;
   max-width: 100%;
+  font-weight: 550;
 }
 
 
@@ -90,14 +91,15 @@
   box-shadow: none !important;
 }
 .navbar {
-  position: relative;
+  position: fixed;
+  width: 100vw;
   display: grid;
   padding-top: .5rem;
   padding-bottom: .5rem;
   grid-auto-flow: column;
   grid-column-gap: 10rem;
   padding-left: 10rem;
-  
+  z-index: 10;
 }
 .navbar-nav{
   padding-top: 5rem;

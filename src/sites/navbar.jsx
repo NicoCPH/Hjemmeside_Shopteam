@@ -11,7 +11,7 @@ function Navbar_footer(props){
 
     return(
         <>
-    <Navbar className="site_header"collapseOnSelect expand="lg">
+    <Navbar className="site_header" collapseOnSelect expand="lg">
           <Navbar.Brand className="image_logo" as={Link} to="/"></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

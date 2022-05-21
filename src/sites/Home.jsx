@@ -4,7 +4,9 @@ function Home(props) {
 
 
 
-function Picture_circle() {
+
+
+function PictureCircle() {
   let url
   if (props.t("home.lng") === "en") {
     console.log(props.t("home.lng"))
@@ -21,6 +23,8 @@ return(
   </div>
 )
 }
+
+let langauge_change = props.t("home.welcome")
 const firstRun = useRef(true);
 useEffect(() => { 
   if (firstRun.current) {
@@ -30,7 +34,7 @@ useEffect(() => {
     return;
   }
 
-    }, [props.t("home.welcome")]);
+    }, [langauge_change]);
 
   return (
    
@@ -44,7 +48,7 @@ useEffect(() => {
     <img src={require("../images/intro01_02.jpg")} alt="" />
     <img src={require("../images/intro01_02.jpg")} alt="" />
     </div>
-    <Picture_circle/>
+    <PictureCircle/>
     </div>
   );
 }

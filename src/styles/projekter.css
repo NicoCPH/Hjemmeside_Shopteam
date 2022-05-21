@@ -1,5 +1,7 @@
 /*Alt fra linje 118 og ned skal ændres så det er pænt på mobil*/
-
+.projekter_headline {
+    padding-top: 10rem;
+}
 .projekter_headline h1 {
     position: relative;
     font-size: 7rem;
@@ -23,7 +25,14 @@
     min-width: 20rem;
     }
 
-
+.image_list {
+    position: relative;
+}
+.comp_image{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    max-width: 15rem;
+}
 
  /*Dette skal ikke rettes fra linje 23 til 46*/   
 @media only screen and (max-width: 1542px) {
@@ -76,13 +85,13 @@
 
 }
 .grids {
-padding-top: 10rem;
-padding-bottom: 10rem;
+padding-top: 7rem;
+padding-bottom: 8rem;
 width: 100%;
 margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr;
-gap: 20rem;
+gap: 15rem;
 }
 
 .column img {

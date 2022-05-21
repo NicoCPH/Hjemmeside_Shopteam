@@ -5,9 +5,44 @@ function Projekter(props) {
                <h1>{props.t("projects.headline")}</h1> 
                <img src={require("../images/img-montage.jpg")} alt="" />
                </div>
-
             <div className="grids">
-                
+            <div className="image_list">
+            <ul>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/zalandologo.png")} alt="" />
+                </lo>
+                <lo title="location 1">
+                <img className="comp_image" src={require("../images/kiklogo.jpg")} alt="" />
+                </lo>
+                <lo title="location 2">
+                <img className="comp_image" src={require("../images/jysklogo.png")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/aldilogo.png")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/momalogo.jpg")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/tedilogo.jpg")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/maxilogo.png")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/xxxlutzlogo.jpg")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/colloseumlogo.png")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/zumtobellogo.jpg")} alt="" />
+                </lo>
+                <lo title="location 3">
+                <img className="comp_image" src={require("../images/woolsworthlogo.png")} alt="" />
+                </lo>
+            </ul>
+            </div>
             <section className="img_right_columns">
                 <div className="column right">
                     <img src={require("../images/img-montage.jpg")} alt="" />
