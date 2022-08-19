@@ -7,13 +7,16 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import './translations/118n';
+import ScrolltoTop from './scripts/scrolltotop'
 const styleLink = document.createElement("link");
 styleLink.rel = "stylesheet";
 styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css";
 document.head.appendChild(styleLink);
 
+
 ReactDOM.render(
   <BrowserRouter basename="/Hjemmeside_Shopteam">
+    <ScrolltoTop/>
     <App />
   </BrowserRouter>,
   document.getElementById('root')

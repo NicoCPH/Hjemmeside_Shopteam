@@ -1,17 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     Link
   } from "react-router-dom";
   import { Navbar, Nav, NavItem } from "react-bootstrap";
   import { Dropdown } from 'semantic-ui-react'
 
-
 function Navbar_footer(props){
+  const [shadow, setShadow] = useState(false);
 
 
+
+  const handlescroll = () => { 
+
+    if (window.scrollY >= 1) {
+      setShadow(true);
+      console.log(shadow);
+    }else {
+      setShadow(false);
+      console.log(shadow);
+    }
+  } 
+  window.addEventListener('scroll', handlescroll)
     return(
         <>
-    <Navbar className="site_header" collapseOnSelect expand="lg">
+    <Navbar className={shadow ? "shadownav site_header" : "site_header"} collapseOnSelect expand="lg">
           <Navbar.Brand className="image_logo" as={Link} to="/"></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

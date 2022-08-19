@@ -14,6 +14,13 @@
     text-align: left;
 }
 
+.kontakt_body_address {
+    font-weight: bold;
+}
+
+.kontakt_body_contact {
+    font-weight: bold;
+}
 .kontakt_body_right {
     width:80%;
     height:100%;

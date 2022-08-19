@@ -5,7 +5,7 @@ import './styles/montage.css'
 import './styles/projekter.css'
 import React, { useEffect, Suspense} from 'react';
 import './styles/Kontakt.css'
-
+import './styles/circles.css'
 
 import {
   Routes,

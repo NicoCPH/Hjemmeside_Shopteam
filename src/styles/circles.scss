@@ -1,0 +1,117 @@
+/// Mixin to place items on a circle
+/// @author Kitty Giraudel
+/// @author Ana Tudor
+/// @param {Integer} $item-count - Number of items on the circle
+/// @param {Length} $circle-size - Large circle size
+/// @param {Length} $item-size - Single item size
+/// 
+
+@font-face {
+    font-family: Oswald;
+    src: url("./Oswald-VariableFont_wght.ttf");
+    
+  }
+@mixin on-circle($item-count, $circle-size, $item-size, $item-height) {
+    position: relative;
+    width: $circle-size;
+    height: $circle-size;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    
+    > * {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: $item-size;
+      height: $item-height;
+      margin: -($item-size / 2);
+  
+      $angle: (360 / $item-count);
+      $rot: 12.8;
+  
+      @for $i from 1 through $item-count {
+        &:nth-of-type(#{$i}) {
+          transform: rotate($rot * 1deg)
+            translate($circle-size / 1)
+            rotate($rot * -1deg);
+           
+        }
+  
+        $rot: $rot + $angle;
+      }
+    }
+  }
+  
+  .circle-container div:hover:nth-child(1)  {
+    background-color: #02026e;
+    background-image: url("../images/img-montage.jpg");
+    background-position: center center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    
+  }
+  .circle-container div:nth-child(1)  {
+    padding-top: 4.5rem;
+  }
+  .circle-container div:nth-child(2)  {
+    padding-top: 4.5rem;
+  }
+  .circle-container div:nth-child(3)  {
+    padding-top: 3.5rem;
+  }
+  .circle-container div:nth-child(4)  {
+    padding-top: 3.5rem;
+  }
+  .circle-container div:nth-child(6)  {
+  padding-top: 4.5rem;
+  }
+  .circle-container div:nth-child(7)  {
+  padding-top: 3.5rem;
+  }
+
+  .circle-container {    
+    @include on-circle($item-count: 7, $circle-size: 25em, $item-size: 12.5em, $item-height: 12.5em);
+    margin: 20em auto 25em;
+
+    background-color:#1e1e1f;
+    /*background-image: url("../images/Group 164.png");*/
+    background-position: center center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-size: 11rem;
+    
+
+     
+    
+  
+    div {
+      color: rgb(255, 255, 255);
+      background-color: #1e1e1f;
+      display: block;
+      max-width: 50%;
+      border-radius: 50%;
+      filter: grayscale(100%);
+      border: solid 5px tomato;
+      transition: 0.15s;
+      padding: 0;
+      text-align: center;
+      padding-top: 3.8em;   
+      overflow: hidden;
+      transition: width .5s;
+      
+        p {
+            font-family: Oswald, sans-serif;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+      &:hover,
+      &:active {
+        filter: grayscale(0);
+        
+      }
+    }
+  }
+  
