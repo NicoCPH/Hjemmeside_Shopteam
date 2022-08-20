@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hjemmeside_Shopteam/static/css/main.6b21a3c8.css",
-    "main.js": "/Hjemmeside_Shopteam/static/js/main.3280d992.js",
+    "main.js": "/Hjemmeside_Shopteam/static/js/main.592fbc31.js",
     "static/js/787.41534379.chunk.js": "/Hjemmeside_Shopteam/static/js/787.41534379.chunk.js",
     "static/media/chinese.msyh.ttf": "/Hjemmeside_Shopteam/static/media/chinese.msyh.554cdb5e811b2cb02d4f.ttf",
     "static/media/img-montage.jpg": "/Hjemmeside_Shopteam/static/media/img-montage.48f1d906fd386e994182.jpg",
@@ -33,11 +33,11 @@
     "static/media/germanpic.png": "/Hjemmeside_Shopteam/static/media/germanpic.42f062c51edd7b1a5df8.png",
     "index.html": "/Hjemmeside_Shopteam/index.html",
     "main.6b21a3c8.css.map": "/Hjemmeside_Shopteam/static/css/main.6b21a3c8.css.map",
-    "main.3280d992.js.map": "/Hjemmeside_Shopteam/static/js/main.3280d992.js.map",
+    "main.592fbc31.js.map": "/Hjemmeside_Shopteam/static/js/main.592fbc31.js.map",
     "787.41534379.chunk.js.map": "/Hjemmeside_Shopteam/static/js/787.41534379.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b21a3c8.css",
-    "static/js/main.3280d992.js"
+    "static/js/main.592fbc31.js"
   ]
 }
