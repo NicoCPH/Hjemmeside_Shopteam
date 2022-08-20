@@ -2,7 +2,10 @@ export const TRANSLATIONS_EN = {
   home:{
       welcome:"Shop Team International Shopfitting",
       lng: "en",
-      h2 : "Everything from one source"
+      h2 : "Everything from one source",
+      welcometext: "With a well-established workflow and specialist knowledge, our fitters implement very demanding projects in shopfitting.\n"
+         + "\nWith this type of project, it is common for us to have a project manager who coordinates our on-site assembly team and acts as a point of contact for our customers."
+         + "Our fitters are real multi-talents who carry out a large number of various construction work.",
     },
     production:{
       headline: "Production",

@@ -3,14 +3,14 @@ import EnglishPicture from "../images/engpic.png"
 import GermanPicture from "../images/germanpic.png"
 function Home(props) {
   let url;
-    if (props.t("home.lng") === "en") {
-      console.log(props.t("home.lng"));
-      url = EnglishPicture;
-    }
-    if (props.t("home.lng") === "de") {
-      console.log(props.t("home.lng"));
-      url = GermanPicture;
-    }
+  if (props.t("home.lng") === "en") {
+    console.log(props.t("home.lng"));
+    url = EnglishPicture;
+  }
+  if (props.t("home.lng") === "de") {
+    console.log(props.t("home.lng"));
+    url = GermanPicture;
+  }
 
 
 
@@ -31,13 +31,15 @@ function Home(props) {
       </div>
 
       <div className="picture_grid">
-        <img src={require("../images/intro01_02.jpg")} alt="" />
-        <img src={require("../images/intro01_02.jpg")} alt="" />
-        <img src={require("../images/intro01_02.jpg")} alt="" />
+        <img src={require("../images/m1/Van for the team.jpg")} alt="" />
+        <img src={require("../images/m1/IMG_7304.JPG")} alt="" />
+        <img src={require("../images/m1/floor mounting 7.jpg")} alt="" />
       </div>
-         
-      <div className="circle-container" style={{backgroundImage: `url(${url})`,
-                                                backgroundSize: "11rem"}}>
+      <div className="welcome_text">{props.t("home.welcometext")}</div>
+      <div className="circle-container" style={{
+        backgroundImage: `url(${url})`,
+        backgroundSize: "11rem"
+      }}>
         <div><p>Epoxy-Lackierung  </p></div> <div><p>Holzherstellung</p></div>
         <div><p>Logistik und Transport</p></div> <div><p>Montage und Service</p></div>
         <div><p>Neubau und Umbau Renovierungen</p></div> <div><p>Roll-Out Tours</p></div>

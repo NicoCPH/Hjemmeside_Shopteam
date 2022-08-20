@@ -5,7 +5,7 @@ function Montage(props) {
         <div className="montage">
             <div className="montage_headline">
                <h1>{props.t("mounting.headline")}</h1> 
-               <img src={require("../images/img-montage.jpg")} alt="" />
+               <img src={require("../images//m1/Team work.jpg")} alt="" />
                </div>
             <section className="mid_center_section_montage">
                 <h2>{props.t("mounting.h2")}</h2>
@@ -35,18 +35,18 @@ function Montage(props) {
             </section>
             <section>
             <div className="picture_grid_montage">
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
-                <img src={require("../images/intro01_02.jpg")} alt="" />
+                <img src={require("../images/m1/Mounting2.jpg")} alt="" />
+                <img src={require("../images/m1/floor mounting 6.jpg")} alt="" />
+                <img src={require("../images/m1/floor mounting8.jpg")} alt="" />
+                <img src={require("../images/m1/mounting3.jpg")} alt="" />
+                <img src={require("../images/m1/Mounting4.jpg")} alt="" />
+                <img src={require("../images/m1/IMG_7756.JPG")} alt="" />
+                <img src={require("../images/m1/mounting nr 1.jpg")} alt="" />
+                <img src={require("../images/m1/mounting the shelves.jpg")} alt="" />
+                <img src={require("../images/m1/IMG_7304.JPG")} alt="" />
+                <img src={require("../images/m1/IMG_7658.JPG")} alt="" />
+                <img src={require("../images/m1/Mounting5.jpg")} alt="" />
+                <img src={require("../images/m1/IMG_7656.JPG")} alt="" />
             </div>
             
 

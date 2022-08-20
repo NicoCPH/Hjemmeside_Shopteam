@@ -10,18 +10,15 @@
 
 .montage_headline {
     padding-top: 10rem;
+    display: flex;
 }
 .montage_headline h1 {
     position: relative;
     font-size: 7rem;
     font-weight: 100;
     font-family: MAU;
-    float: left;
-    padding-left: 11rem;
+    padding-right: 10rem;
     padding-top: 12rem;
-    max-width: 45%;
-    margin: auto;
-    
 }
 
 .ul_montage {
@@ -37,13 +34,11 @@ white-space: pre-line;
 
 .montage_headline img {
     position: relative;
-    font-weight: lighter;
-    float: right;
     padding-top: 5rem;
     padding-right: 5rem;
-    margin: auto;
-    max-width: 45%;
-    min-width: 20rem;
+
+    max-width: 1250px;
+    min-width: 25rem;
     }
 
 .mid_center_section_montage {
@@ -52,7 +47,7 @@ white-space: pre-line;
     max-width: 60rem;
     max-width: 70%;
     padding-left: 30rem;
-    padding-top: 40rem;
+    padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
