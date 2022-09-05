@@ -1,0 +1,55 @@
+.mid_section_epoxy {
+    text-align: left;
+    position: relative;
+    max-width: 60rem;
+    max-width: 50%;
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+    margin: 0 auto;
+}
+
+.button_holder {
+    padding-top: 200px;
+    padding-left: 50px;
+    float: left;
+}
+
+.button_back {
+    border: none;
+    padding: 10px 32px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #1E1E1F;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.button_back:hover {
+    opacity: 1;
+    color: antiquewhite;
+}
+@media only screen and (max-width: 1278px) {
+    .button_holder {
+        padding-top: 100px;
+    }
+    .mid_section_epoxy {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        padding-top: 10rem;
+        padding-bottom: 3rem;
+        text-align: center;
+        padding-right: 0rem;
+    }
+
+    .mid_section_epoxy p {
+        font-size: 1rem;
+    }
+
+
+}

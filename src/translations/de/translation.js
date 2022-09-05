@@ -5,7 +5,7 @@ export const TRANSLATIONS_DE = {
          h2: "Alles aus einer Hand",
          welcometext: "Mit einem eingespielten Workflow und Fachwissen realisieren unsere Monteure im Ladenbau sehr anspruchsvolle Vorhaben.\n"
          + "\nBei dieser Art von Projekten ist es die Regel, dass wir einen Projektleiter einstellen, der unser Montageteam auf der Baustelle koordiniert und für unsere Kunden als Ansprechpartner fungiert."
-         + "Unsere Monteure sind echte Multitalente, die handwerklich eine Vielzahl von Tätigkeiten ausführen.",
+         + " Unsere Monteure sind echte Multitalente, die handwerklich eine Vielzahl von Tätigkeiten ausführen.",
         },
         production:{
             headline: "Herstellung",

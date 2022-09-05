@@ -5,7 +5,7 @@ function Montage(props) {
         <div className="montage">
             <div className="montage_headline">
                <h1>{props.t("mounting.headline")}</h1> 
-               <img src={require("../images//m1/Team work.jpg")} alt="" />
+               <img src={require("../images//m1/lamp systems3.jpg")} alt="" />
                </div>
             <section className="mid_center_section_montage">
                 <h2>{props.t("mounting.h2")}</h2>
@@ -41,7 +41,7 @@ function Montage(props) {
                 <img src={require("../images/m1/mounting3.jpg")} alt="" />
                 <img src={require("../images/m1/Mounting4.jpg")} alt="" />
                 <img src={require("../images/m1/IMG_7756.JPG")} alt="" />
-                <img src={require("../images/m1/mounting nr 1.jpg")} alt="" />
+                <img src={require("../images/m1/plumming.jpg")} alt="" />
                 <img src={require("../images/m1/mounting the shelves.jpg")} alt="" />
                 <img src={require("../images/m1/IMG_7304.JPG")} alt="" />
                 <img src={require("../images/m1/IMG_7658.JPG")} alt="" />

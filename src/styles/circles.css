@@ -2,37 +2,55 @@
   font-family: Oswald;
   src: url("./Oswald-VariableFont_wght.ttf");
 }
-.circle-container div:hover:nth-child(1) {
-  background-color: #02026e;
+
+.circle-container a:hover:nth-child(1) {
   background-image: url("../images/img-montage.jpg");
   background-position: center center;
   background-size: cover !important;
   background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.circle-container div:nth-child(1) {
+.circle-container a:nth-child(1) {
   padding-top: 4.5rem;
+  color: white;
+  text-decoration: none;
 }
 
-.circle-container div:nth-child(2) {
+.circle-container a:nth-child(2) {
   padding-top: 4.5rem;
+  color: white;
+  text-decoration: none;
 }
 
-.circle-container div:nth-child(3) {
+.circle-container a:nth-child(3) {
   padding-top: 3.5rem;
+  color: white;
+  text-decoration: none;
 }
 
-.circle-container div:nth-child(4) {
+.circle-container a:nth-child(4) {
   padding-top: 3.5rem;
+  color: white;
+  text-decoration: none;
 }
 
-.circle-container div:nth-child(6) {
+.circle-container a:nth-child(5) {
+  color: white;
+  text-decoration: none;
+}
+
+.circle-container a:nth-child(6) {
   padding-top: 4.5rem;
+  color: white;
+  text-decoration: none;
 }
 
-.circle-container div:nth-child(7) {
+.circle-container a:nth-child(7) {
   padding-top: 3.5rem;
+  color: white;
+  text-decoration: none;
 }
 
 .circle-container {
@@ -50,6 +68,7 @@
   background-repeat: no-repeat;
   background-size: 11rem;
 }
+
 .circle-container > * {
   display: block;
   position: absolute;
@@ -59,47 +78,69 @@
   height: 12.5em;
   margin: -6.25em;
 }
+
 .circle-container > *:nth-of-type(1) {
-  transform: rotate(12.8deg) translate(25em) rotate(-12.8deg);
+  -webkit-transform: rotate(12.8deg) translate(25em) rotate(-12.8deg);
+          transform: rotate(12.8deg) translate(25em) rotate(-12.8deg);
 }
+
 .circle-container > *:nth-of-type(2) {
-  transform: rotate(64.2285714286deg) translate(25em) rotate(-64.2285714286deg);
+  -webkit-transform: rotate(64.22857deg) translate(25em) rotate(-64.22857deg);
+          transform: rotate(64.22857deg) translate(25em) rotate(-64.22857deg);
 }
+
 .circle-container > *:nth-of-type(3) {
-  transform: rotate(115.6571428571deg) translate(25em) rotate(-115.6571428571deg);
+  -webkit-transform: rotate(115.65714deg) translate(25em) rotate(-115.65714deg);
+          transform: rotate(115.65714deg) translate(25em) rotate(-115.65714deg);
 }
+
 .circle-container > *:nth-of-type(4) {
-  transform: rotate(167.0857142857deg) translate(25em) rotate(-167.0857142857deg);
+  -webkit-transform: rotate(167.08571deg) translate(25em) rotate(-167.08571deg);
+          transform: rotate(167.08571deg) translate(25em) rotate(-167.08571deg);
 }
+
 .circle-container > *:nth-of-type(5) {
-  transform: rotate(218.5142857143deg) translate(25em) rotate(-218.5142857143deg);
+  -webkit-transform: rotate(218.51429deg) translate(25em) rotate(-218.51429deg);
+          transform: rotate(218.51429deg) translate(25em) rotate(-218.51429deg);
 }
+
 .circle-container > *:nth-of-type(6) {
-  transform: rotate(269.9428571429deg) translate(25em) rotate(-269.9428571429deg);
+  -webkit-transform: rotate(269.94286deg) translate(25em) rotate(-269.94286deg);
+          transform: rotate(269.94286deg) translate(25em) rotate(-269.94286deg);
 }
+
 .circle-container > *:nth-of-type(7) {
-  transform: rotate(321.3714285714deg) translate(25em) rotate(-321.3714285714deg);
+  -webkit-transform: rotate(321.37143deg) translate(25em) rotate(-321.37143deg);
+          transform: rotate(321.37143deg) translate(25em) rotate(-321.37143deg);
 }
-.circle-container div {
-  color: rgb(255, 255, 255);
+
+.circle-container a {
+  color: white;
   background-color: #1e1e1f;
   display: block;
   max-width: 50%;
   border-radius: 50%;
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
   border: solid 5px tomato;
+  -webkit-transition: 0.15s;
   transition: 0.15s;
   padding: 0;
   text-align: center;
   padding-top: 3.8em;
   overflow: hidden;
-  transition: width 0.5s;
+  -webkit-transition: width .5s;
+  transition: width .5s;
 }
-.circle-container div p {
+
+.circle-container a p {
   font-family: Oswald, sans-serif;
   font-weight: bolder;
   font-size: 20px;
 }
-.circle-container div:hover, .circle-container div:active {
-  filter: grayscale(0);
-}/*# sourceMappingURL=circles.css.map */
+
+.circle-container a:hover, .circle-container a:active {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+/*# sourceMappingURL=circles.css.map */

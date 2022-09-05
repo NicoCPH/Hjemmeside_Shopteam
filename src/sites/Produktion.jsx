@@ -75,9 +75,9 @@ function Produktion(props) {
       </Swiper>
 
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide><img className='first_slider_image' src={require("../images/intro01_02.jpg")} alt="" /><div className='swiper-slide-container'>Wood Production</div></SwiperSlide>
-        <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='first_slider_image' src={require("../images/m1/wooden furniture production.jpg")} alt="" /><div className='swiper-slide-container'>Wood Production</div></SwiperSlide>
+        <SwiperSlide><img src={require("../images/m1/wood production.jpg")} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={require("../images/m1/wood production2.jpg")} alt="" /></SwiperSlide>
       </Swiper>
 
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
@@ -92,9 +92,9 @@ function Produktion(props) {
       </Swiper>
 
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide><img className='first_slider_image' src={require("../images/intro03_01.jpg")} alt="" /><div className='swiper-slide-container'>Steel Production</div></SwiperSlide>
-        <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={require("../images/intro01_02.jpg")} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='first_slider_image' src={require("../images/m1/Steel production.jpg")} alt="" /><div className='swiper-slide-container'>Steel Production</div></SwiperSlide>
+        <SwiperSlide><img src={require("../images/m1/Steel production2.jpg")} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={require("../images/m1/Stainless steel production2.jpg")} alt="" /></SwiperSlide>
       </Swiper>
 
        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">

@@ -1,4 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
+import {
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom";
 import EnglishPicture from "../images/engpic.png"
 import GermanPicture from "../images/germanpic.png"
 function Home(props) {
@@ -40,10 +44,13 @@ function Home(props) {
         backgroundImage: `url(${url})`,
         backgroundSize: "11rem"
       }}>
-        <div><p>Epoxy-Lackierung  </p></div> <div><p>Holzherstellung</p></div>
-        <div><p>Logistik und Transport</p></div> <div><p>Montage und Service</p></div>
-        <div><p>Neubau und Umbau Renovierungen</p></div> <div><p>Roll-Out Tours</p></div>
-        <div><p>Metall- und Drahtherstellung</p></div>
+        <Link to="/Epoxy"><div><p>Epoxy-Lackierung</p></div></Link>
+        <Link to="/Epoxy"><div><p>Holzherstellung</p></div></Link>
+        <Link to="/Epoxy"><div><p>Logistik und Transport</p></div> </Link>
+        <Link to="/Epoxy"><div><p>Montage und Service</p></div></Link>
+        <Link to="/Epoxy"><div><p>Neubau und Umbau Renovierungen</p></div> </Link>
+        <Link to="/Epoxy"><div><p>Roll-Out Tours</p></div></Link>
+        <Link to="/Epoxy"><div><p>Metall- und Drahtherstellung</p></div></Link>
       </div>
     </div>
   );
