@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hjemmeside_Shopteam/static/css/main.7721c6b1.css",
-    "main.js": "/Hjemmeside_Shopteam/static/js/main.f4544024.js",
+    "main.css": "/Hjemmeside_Shopteam/static/css/main.1c295cf3.css",
+    "main.js": "/Hjemmeside_Shopteam/static/js/main.a0d06751.js",
     "static/js/787.41534379.chunk.js": "/Hjemmeside_Shopteam/static/js/787.41534379.chunk.js",
     "static/media/chinese.msyh.ttf": "/Hjemmeside_Shopteam/static/media/chinese.msyh.554cdb5e811b2cb02d4f.ttf",
     "static/media/plumming.jpg": "/Hjemmeside_Shopteam/static/media/plumming.e1050cf8b3cd4445c9aa.jpg",
@@ -37,12 +37,12 @@
     "static/media/engpic.png": "/Hjemmeside_Shopteam/static/media/engpic.58adacbfdc77fb33ceef.png",
     "static/media/germanpic.png": "/Hjemmeside_Shopteam/static/media/germanpic.42f062c51edd7b1a5df8.png",
     "index.html": "/Hjemmeside_Shopteam/index.html",
-    "main.7721c6b1.css.map": "/Hjemmeside_Shopteam/static/css/main.7721c6b1.css.map",
-    "main.f4544024.js.map": "/Hjemmeside_Shopteam/static/js/main.f4544024.js.map",
+    "main.1c295cf3.css.map": "/Hjemmeside_Shopteam/static/css/main.1c295cf3.css.map",
+    "main.a0d06751.js.map": "/Hjemmeside_Shopteam/static/js/main.a0d06751.js.map",
     "787.41534379.chunk.js.map": "/Hjemmeside_Shopteam/static/js/787.41534379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7721c6b1.css",
-    "static/js/main.f4544024.js"
+    "static/css/main.1c295cf3.css",
+    "static/js/main.a0d06751.js"
   ]
 }
