@@ -114,6 +114,10 @@
     color: White !important
 }
 
+.swiper-container {
+    width: 100%;
+}
+
 .swiper-slide-container {
     position: absolute;
     top: 15rem;
@@ -125,6 +129,7 @@
     width: 15rem;
     height: 4.07rem;
     font-family: Oswald;
+    
 }
 
 .first_slider_image {

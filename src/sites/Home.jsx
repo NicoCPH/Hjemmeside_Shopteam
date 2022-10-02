@@ -51,6 +51,7 @@ function Home(props) {
         <Link to="/Epoxy"><div><p>Neubau und Umbau Renovierungen</p></div> </Link>
         <Link to="/Epoxy"><div><p>Roll-Out Tours</p></div></Link>
         <Link to="/Epoxy"><div><p>Metall- und Drahtherstellung</p></div></Link>
+        <Link to="/Epoxy"><div><p>Projekt management</p></div></Link>
       </div>
     </div>
   );

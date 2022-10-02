@@ -2,7 +2,7 @@ import "../../styles/layouts.css"
 import {
     Link
   } from "react-router-dom";
-
+  import React from "react";
 function Epoxy(props) {
     return (
         <div className="montage">

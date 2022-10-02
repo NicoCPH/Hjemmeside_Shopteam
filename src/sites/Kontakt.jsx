@@ -1,4 +1,4 @@
-
+import React from "react";
 function Kontakt(props) {
     return (
         <div className="kontakt">

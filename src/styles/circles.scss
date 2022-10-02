@@ -32,7 +32,8 @@
     margin: -($item-size / 2);
 
     $angle: (360 / $item-count);
-    $rot: 12.8;
+    $rot: 22;
+    ///     $rot: 12.8; for 7 cirkler
 
     @for $i from 1 through $item-count {
       &:nth-of-type(#{$i}) {
@@ -94,9 +95,14 @@
   color: white;
   text-decoration: none;
 }
+.circle-container a:nth-child(8)  {
+  padding-top: 3.4rem;
+  color: white;
+  text-decoration: none;
+}
 
 .circle-container {
-  @include on-circle($item-count: 7, $circle-size: 25em, $item-size: 12.5em, $item-height: 12.5em);
+  @include on-circle($item-count: 8, $circle-size: 25em, $item-size: 12.5em, $item-height: 12.5em);
   margin: 20em auto 25em;
 
   background-color: #1e1e1f;

@@ -1,3 +1,5 @@
+import React from "react";
+
 function Projekter(props) {
     return (
         <div className="projekter">
